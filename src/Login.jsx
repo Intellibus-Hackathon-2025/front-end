@@ -80,7 +80,7 @@ export default function Login() {
           />
         </div>
         {error && <p className="text-red-500 mt-2">{error}</p>}
-        <div className="mt-4 flex justify-between">
+        <div className="mt-4 flex justify-centre">
           <button
             type="submit"
             className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
